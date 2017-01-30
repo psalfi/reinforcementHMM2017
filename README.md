@@ -35,7 +35,8 @@ Las presentaciones de la clase pueden consultarse en [este link dentro del repos
 Habrá tareas individuales todas las clases, los detalles de la forma de entrega se discutirán en clase. Usualmente no pasará de un reporte en una página o participación en la clase. Incluyo aquí una lista no detallada para que revisen si están al corriente
 
 *Lista de tareas individuales*
-1. Traer un ejemplo de modelar un problema de aprendizaje con Reinforcement Learning como hicimos en el ejemplo de clase del Dominó. Identificar los elementos del problema de RL y la secuencia de aprendizaje (agente, pagos, ambiente, estados, probabilidades de transición de la naturaleza). Trear impreso o escrito a mano en una cuartilla. No usar ejemplos del libro.
+
+1. Traer un ejemplo de modelar un problema de aprendizaje usando RL como hicimos en el ejemplo de clase del Dominó. Identificar los elementos del problema de RL y la secuencia de aprendizaje (agente, pagos, ambiente, estados, probabilidades de transición de la naturaleza). Trear impreso o escrito a mano en una cuartilla. No usar ejemplos del libro.
 
 ## Tareas grupales
 
