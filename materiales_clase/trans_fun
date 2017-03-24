@@ -1,0 +1,17 @@
+# Truco julia: list comprehensions
+state_space= [[i, j] for i in 1:size(race_track,1) for j in 1:size(race_track,2)]
+# Trucho julia 2: hacer funciones en una linea facilmente
+action_set = state -> ["up", "left", "right", "down"]
+# Cosa 3 que necesitamos es una funcion de transicion
+function trans_fun(state, action)
+    i, j = state # julia trick
+    if (action == "up" && i > 1) i = i - 1 end
+    if (action == "down" && i < size(race_track, 1)) i = i + 1 end
+    if (action == "left" && j > 1) j = j - 1 end
+    if (action == "right" && j < size(race_track, 2)) j = j + 1 end
+    new_state = [i, j]
+    reward = -1 # default
+    if race_track[i, j] == "*" reward = -5 end
+    if race_track[i, j] == "F" reward = 0 end
+    return new_state, reward
+end
